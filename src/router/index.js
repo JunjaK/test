@@ -11,6 +11,27 @@ const routes = [
     component: Home,
   },
   {
+    path: '/test',
+    component: () => import('../views/test'),
+    children: [
+      {
+        path: '/nested/test',
+        component: () => import('../views/nestedTest'),
+        props: {
+
+        },
+      },
+      {
+        path: '/nested/test1',
+        component: () => import('../views/nestedTest1'),
+      },
+      {
+        path: '/nested/test2',
+        component: () => import('../views/nestedTest2'),
+      },
+    ],
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
