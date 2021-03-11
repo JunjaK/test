@@ -1,8 +1,9 @@
 ## 반드시 알아야할 개념
-- Vue Component 통신
-- Vue lifecycle
+- Vue Component 통신 : props, emit, model 등의 이벤트
+- Vue lifecycle : created, mounted, beforeDestroy 개념이 가장 중요.
 - Vue store : state Flow, state 접근 및 변경, 모듈화
 - Vue Router : Router 등록 (컴포넌트와 연결), router-view, router-link 동작, 프로그래밍적 라우터 이동
+- Virtual Node 접근 : Vue Component에 ref를 선언 후 스크립트에서 this.$refs로 접근   
 - ES6 Promise, ES2017 Async, Await 등의 비동기 핸들링 
 - 기본 directive : v-if, v-for, v-on(@), v-bind(:)
 
