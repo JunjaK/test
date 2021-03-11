@@ -1,7 +1,14 @@
+## 반드시 알아야할 개념
+- Vue Component 통신
+- Vue lifecycle
+- Vue store : state Flow, state 접근 및 변경, 모듈화
+- Vue Router : Router 등록 (컴포넌트와 연결), router-view, router-link 동작, 프로그래밍적 라우터 이동
+- ES6 Promise, ES2017 Async, Await 등의 비동기 핸들링 
+- 기본 directive : v-if, v-for, v-on(@), v-bind(:)
+
 ## 레퍼런스 문서 
 캡틴 판교의 Cracking Vue.js 문서는 잘 정리되어 있어서  
 공식 문서보다 우선적으로 Cracking Vue.js를 먼저 보시는 것을 추천합니다.
-
 
 - 공식 vue : https://kr.vuejs.org/v2/guide/index.html
 - Vue LifeCylce : https://medium.com/witinweb/vue-js-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-7780cdd97dd4  
